@@ -23,6 +23,45 @@
 - 保養品：如往常
 
 ## 大便照片
+
+
+- 4/20 none
+- 4/19 
+	![4/19](IMG_3624.jpeg)
+- 4/18 
+	![4/18](IMG_3625.jpeg)
+- 4/17 
+	![4/17](IMG_3626.jpeg)
+- 4/16 
+	![4/16](IMG_3627.jpeg)
+- 4/15 
+	![4/15](IMG_3628.jpeg)
+- 4/14 
+	![4/14](IMG_3630.jpeg)
+- 4/13 none
+- 4/12 
+	![4/12](IMG_3631.jpeg)
+- 4/11 大便有點醃梅子味 
+	![4/11](IMG_3632.jpeg)
+- 4/10 
+	![4/10](IMG_3633.jpeg)
+- 4/9 none
+- 4/8 none
+- 4/7 none
+- 4/6 
+	![4/6](IMG_3634.jpeg)
+- 4/5 none
+- 4/4 冒泡泡一陣子後又用力一陣才大便 
+	![4/4](IMG_3635.jpeg)
+- 4/3 none
+- 4/2 
+	![4/2](IMG_3637.jpeg)
+- 4/1 none
+- 3/31 幾乎沒尿
+  ![3/31](IMG_3638.jpeg)
+
+
+<!--
 - 4/20 none
 - 4/19 
 	![4/19](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/4/20/IMG_3624.jpeg?raw=true =50%x)
@@ -57,3 +96,4 @@
 - 4/1 none
 - 3/31 幾乎沒尿
   ![3/31](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/4/20/IMG_3638.jpeg?raw=true =50%x)
+-->
