@@ -15,5 +15,15 @@
 - 保養品：如往常
 
 ## 大便照片
-- 05/05 尿酸鹽長相很怪
-  ![05/05](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/05/05/IMG_3786.jpeg?raw=true)
+- 05/17 ![05/17](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/05/18/IMG_3971.jpeg?raw=true)
+- 05/16 NONE
+- 05/15 ![05/15](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/05/18/IMG_3972.jpeg?raw=true)
+- 05/14 ![05/14](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/05/18/IMG_3973.jpeg?raw=true)
+- 05/13 ![05/13](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/05/18/IMG_3980.jpeg?raw=true)
+- 05/12 ![05/12](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/05/18/IMG_3975.jpeg?raw=true)
+- 05/11 NONE
+- 05/10 ![05/10](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/05/18/IMG_3976.jpeg?raw=true)
+- 05/09 ![05/09](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/05/18/IMG_3977.jpeg?raw=true)
+- 05/08 ![05/08](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/05/18/IMG_3978.jpeg?raw=true)
+- 05/07 ![05/07](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/05/18/IMG_3979.jpeg?raw=true)
+- 05/06 NONE
