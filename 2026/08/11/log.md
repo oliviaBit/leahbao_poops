@@ -17,4 +17,20 @@
 
 ## 大便照片 
 
-- 08/ ![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/08/11/.jpeg?raw=true)
+- 08/11 ![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/08/11/IMG_5124.jpeg?raw=true)
+- 08/10 ![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/08/11/IMG_5125.jpeg?raw=true)
+- 08/09 ![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/08/11/IMG_5126.jpeg?raw=true)
+- 08/08 ![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/08/11/IMG_5127.jpeg?raw=true)
+- 08/07 ![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/08/11/IMG_5128.jpeg?raw=true)
+- 08/06 ![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/08/11/IMG_5129.jpeg?raw=true)
+- 08/05 ![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/08/11/IMG_5130.jpeg?raw=true)
+- 08/04 ![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/08/11/IMG_5131.jpeg?raw=true)
+- 08/03 ![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/08/11/IMG_5134.jpeg?raw=true)
+- 08/02 ![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/08/11/IMG_5135.jpeg?raw=true)
+- 08/01 ![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/08/11/IMG_5136.jpeg?raw=true)
+- 07/31 ![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/08/11/IMG_5137.jpeg?raw=true)
+- 07/30 None
+- 07/29 ![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/08/11/IMG_5138.jpeg?raw=true)
+- 07/28 None
+- 07/27 ![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/08/11/IMG_5139.jpeg?raw=true)
+- 07/26 ![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/08/11/IMG_5140.jpeg?raw=true)
