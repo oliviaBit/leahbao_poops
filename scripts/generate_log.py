@@ -5,8 +5,8 @@
 
 前提:
 - 「一個總結日資料夾」年/月/日/ 內,放約兩週的所有照片 + tmpLog.md。
-- 每張照片的日期來自 EXIF(DateTimeOriginal);
-- 本腳本負責把照片清單套進列表;
+- 每張照片的日期來自 EXIF(DateTimeOriginal)
+- 本腳本建立基本 tmpLog.md 負責把近況取出、照片清單套進列表。
 
 近況:讀 Google Sheet「提交日 = 總結日」那列,與上一筆比較,相同欄位自動填「〃」。
 
@@ -32,12 +32,12 @@ IMAGE_EXT = {".jpeg", ".jpg", ".png", ".heic", ".heif", ".webp"}
 # 近況欄位對應(sheet 欄名 → tmpLog.md);改欄名/順序/要不要比對〃,只改這裡
 STATUS_LAYOUT = [
     ("口腔黏液",   "口腔水合",       "compare"),
-    ("__哈氣__",   None,             "group"),
+    ("__HAQI__",   None,             "group"),
     ("睡覺時",     "發現哈氣-睡覺時", "compare_sub"),
     ("進食後",     "發現哈氣-進食",   "compare_sub"),
     ("休息時",     "發現哈氣-休息",   "compare_sub"),
     ("食慾",       "食慾 g",         "appetite"),
-    ("__體重__", None,             "weight"),
+    ("__WEIGHT__", None,             "weight"),
     ("精神",       "精神狀態",       "compare"),
     ("行動",       "外觀行為",       "compare"),
     ("保養品",     "保養品",         "compare"),
@@ -112,7 +112,7 @@ def build_status(headers, recs, summary_date):
             w = cell(cur, headers, "體重 kg")
             wd = parse_date(cell(cur, headers, "體重日"))
             wd_txt = wd.strftime("%Y/%m/%d") if wd else cell(cur, headers, "體重日")
-            out.append(f"- 體重 ({w}kg) {wd_txt}".rstrip())
+            out.append(f"- 體重 {w}kg（{wd_txt}）")
         elif mode == "appetite":
             c = cell(cur, headers, src)
             same = prev is not None and c != "" and c == cell(prev, headers, src)
@@ -200,15 +200,11 @@ def main():
     ap.add_argument("--summary", default=os.environ.get("SUMMARY_DATE", ""))  # 留空 = Sheet 最新列
     ap.add_argument("--repo-root", default=".")
     ap.add_argument("--out", default="")
-    ap.add_argument("--annotated", default=os.environ.get("ANNOTATED_JSON", ""))
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
 
     repo_root = Path(args.repo_root).resolve()
-    annotated = set()
-    if args.annotated:
-        p = Path(args.annotated)
-        annotated = set(json.loads(p.read_text() if p.is_file() else args.annotated))
+    annotated = set()  # 註記在「你提供檔案給我看圖」那步處理,Action 不做
 
     rows = fetch_sheet_rows()
     headers, recs = find_records(rows)
