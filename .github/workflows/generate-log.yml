@@ -7,10 +7,6 @@ name: Generate tmpLog.md
         description: "指定提交日 YYYY-MM-DD(留空 = 用 Sheet 最新一列;區間自動 = 上一列+1天 ~ 這一列)"
         required: false
         default: ""
-      annotated:
-        description: "有手寫註記的檔名 JSON 陣列(選用,來自看圖步驟),例 [\"IMG_5102.jpeg\"]"
-        required: false
-        default: ""
 
 permissions:
   contents: write
@@ -31,7 +27,6 @@ jobs:
       - name: Generate tmpLog.md
         env:
           SUMMARY_DATE: ${{ github.event.inputs.summary_date }}
-          ANNOTATED_JSON: ${{ github.event.inputs.annotated }}
           # 可覆寫:OWNER / REPO / BRANCH / SHEET_ID / GID / FALLBACK_DAYS
         run: python scripts/generate_log.py
 
