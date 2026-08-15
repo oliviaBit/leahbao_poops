@@ -1,4 +1,4 @@
-name: Generate log.md
+name: Generate tmpLog.md
 
 on:
   workflow_dispatch:
@@ -28,7 +28,7 @@ jobs:
       - name: Install deps (EXIF)
         run: pip install Pillow pillow-heif
 
-      - name: Generate log.md
+      - name: Generate tmpLog.md
         env:
           SUMMARY_DATE: ${{ github.event.inputs.summary_date }}
           ANNOTATED_JSON: ${{ github.event.inputs.annotated }}
@@ -43,6 +43,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "沒有變更,略過 commit"
           else
-            git commit -m "chore: 更新 log.md (${{ github.event.inputs.summary_date }})"
+            git commit -m "chore: 更新 tmpLog.md (${{ github.event.inputs.summary_date }})"
             git push
           fi
