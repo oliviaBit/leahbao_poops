@@ -1,6 +1,6 @@
 name: Generate tmpLog.md
 
-on:
+"on":
   workflow_dispatch:
     inputs:
       summary_date:
