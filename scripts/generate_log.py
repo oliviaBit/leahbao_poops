@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-產生鬣寶中藥 log.md。
+產生鬣寶中藥 tmpLog.md。
 
 前提:
 - 「一個總結日資料夾」年/月/日/ 內,放約兩週的所有照片 + tmpLog.md。
 - 每張照片的日期來自 EXIF(DateTimeOriginal)
 - 本腳本建立基本 tmpLog.md 負責把近況取出、照片清單套進列表。
 
-近況:讀 Google Sheet「提交日 = 總結日」那列,與上一筆比較,相同欄位自動填「〃」。
+近況:Google Sheet「總結日 （變數：commitDate）」那列,與上一筆比較,相同欄位自動填「〃」。 
 
 本機測試:
     python scripts/generate_log.py --summary 2026-08-11 --days 14 --repo-root . --dry-run
@@ -20,6 +20,7 @@ from pathlib import Path
 from urllib.request import urlopen, Request
 
 # ────────────── 設定 ──────────────
+commitDate = "總結日"
 OWNER    = os.environ.get("OWNER", "oliviaBit")
 REPO     = os.environ.get("REPO", "leahbao_poops")
 BRANCH   = os.environ.get("BRANCH", "main")
@@ -64,11 +65,11 @@ def parse_date(s):
 
 
 def find_records(rows):
-    hidx = next((i for i, r in enumerate(rows) if any(c.strip() == "提交日" for c in r)), None)
+    hidx = next((i for i, r in enumerate(rows) if any(c.strip() == f"{commitDate}" for c in r)), None)
     if hidx is None:
-        raise SystemExit("找不到標頭列(沒有『提交日』欄)")
+        raise SystemExit(f"找不到標頭列(沒有『{commitDate}』欄)")
     headers = {c.strip(): j for j, c in enumerate(rows[hidx]) if c.strip()}
-    dc = headers["提交日"]
+    dc = headers[commitDate]
     recs = []
     for i in range(hidx + 1, len(rows)):
         cells = rows[i]
@@ -90,7 +91,7 @@ def cell(rec, headers, name):
 def build_status(headers, recs, summary_date):
     cur = next((r for r in recs if r["date"] == summary_date), None)
     if cur is None:
-        raise SystemExit(f"Sheet 找不到提交日 = {summary_date} 的紀錄")
+        raise SystemExit(f"Sheet 找不到{commitDate} = {summary_date} 的紀錄")
     prev = None
     for r in recs:
         if r["date"] < summary_date:
@@ -156,7 +157,7 @@ def exif_date(path):
     return None
 
 
-# ────────────── 大便照片(單一總結日資料夾 + EXIF 分組) ──────────────
+# ────────────── 大便照片(單一 {commitDate} 資料夾 + EXIF 分組) ──────────────
 def build_photos(repo_root, summary_date, start_date, annotated):
     folder = repo_root / f"{summary_date.year:04d}" / f"{summary_date.month:02d}" / f"{summary_date.day:02d}"
     by_day, no_exif = {}, []
@@ -215,10 +216,10 @@ def main():
     want = parse_date(args.summary)
     target = next((r for r in recs if r["date"] == want), None) if want else recs[-1]
     if target is None:
-        raise SystemExit(f"Sheet 找不到提交日 = {want}")
+        raise SystemExit(f"Sheet 找不到{commitDate} = {want}")
     summary_date = target["date"]
 
-    # 起訖:開始 = 上一列提交日 + 1 天;無上一列時往前 FALLBACK_DAYS-1 天。結束 = 目標日
+    # 起訖:開始 = 上一列 {commitDate} + 1 天;無上一列時往前 FALLBACK_DAYS-1 天。結束 = 目標日
     prev = next((r for r in reversed(recs) if r["date"] < summary_date), None)
     start_date = (prev["date"] + timedelta(days=1)) if prev else (summary_date - timedelta(days=FALLBACK_DAYS - 1))
 
