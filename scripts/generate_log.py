@@ -4,7 +4,7 @@
 產生鬣寶中藥 log.md。
 
 前提:
-- 「一個總結日資料夾」年/月/日/ 內,放約兩週的所有照片 + log.md。
+- 「一個總結日資料夾」年/月/日/ 內,放約兩週的所有照片 + tmpLog.md。
 - 每張照片的日期來自 EXIF(DateTimeOriginal);
 - 本腳本負責把照片清單套進列表;
 
@@ -29,7 +29,7 @@ FALLBACK_DAYS = int(os.environ.get("FALLBACK_DAYS", "14"))  # 第一筆(無上�
 DITTO    = "〃"
 IMAGE_EXT = {".jpeg", ".jpg", ".png", ".heic", ".heif", ".webp"}
 
-# 近況欄位對應(sheet 欄名 → log.md);改欄名/順序/要不要比對〃,只改這裡
+# 近況欄位對應(sheet 欄名 → tmpLog.md);改欄名/順序/要不要比對〃,只改這裡
 STATUS_LAYOUT = [
     ("口腔黏液",   "口腔水合",       "compare"),
     ("__哈氣__",   None,             "group"),
@@ -234,7 +234,7 @@ def main():
 
     out_path = Path(args.out) if args.out else (
         repo_root / f"{summary_date.year:04d}" / f"{summary_date.month:02d}"
-        / f"{summary_date.day:02d}" / "log.md")
+        / f"{summary_date.day:02d}" / "tmpLog.md")
 
     if args.dry_run:
         sys.stdout.write(body)
