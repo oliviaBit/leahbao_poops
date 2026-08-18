@@ -6,9 +6,11 @@
 前提:
 - 「一個總結日資料夾」年/月/日/ 內,放約兩週的所有照片 + tmpLog.md。
 - 每張照片的日期來自 EXIF(DateTimeOriginal)
-- 本腳本建立基本 tmpLog.md 負責把近況取出、照片清單套進列表。
+- 本腳本建立基本 tmpLog.md 負責把「近況」取出、照片清單套進列表。
 
-近況:Google Sheet「總結日 （變數：commitDate）」那列,與上一筆比較,相同欄位自動填「〃」。 
+ps. 
+- 近況：Google Sheet「總結日」那列,與上一筆比較,相同欄位自動填「〃」。 
+- 變數 commitDate: "總結日" 
 
 本機測試:
     python scripts/generate_log.py --summary 2026-08-11 --days 14 --repo-root . --dry-run
@@ -174,7 +176,7 @@ def build_photos(repo_root, summary_date, start_date, annotated):
         label = f"{d.month:02d}/{d.day:02d}"
         imgs = by_day.get(d, [])
         if not imgs:
-            out.append(f"- {label} none")
+            out.append(f"- {label} NONE")
             continue
         parts, any_note = [], False
         for p in imgs:
