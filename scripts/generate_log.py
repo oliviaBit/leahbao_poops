@@ -2,19 +2,18 @@
 # -*- coding: utf-8 -*-
 """
 產生 tmpLog.md 檔案：
+預設從指定 Google Sheet 讀 "最新" 總結日日期為「基準日」，
+若觸發 workflow 時指定日期，則以該日期為基準日。
 
-1. 產出「近況」資料
-    從指定 Google Sheet 讀 最新「總結日」那一列資料，來生成近況描述。
-    若該欄資料與上一總結日紀錄相同，近況顯示「〃」。
+1. 產出「近況」資料    
+    讀取 Google Sheet 上「總結日」＝ 基準日 的那列資料，生成近況描述。
+    若該欄資料與上一筆紀錄相同，近況以「〃」描述。
 2. 整理「大便照片」列表
-    依 Google Sheet 最新「總結日」拼出資料夾路徑，
-    找照片、讀 EXIF，依拍攝日期建立照片列表，條件：
+    取基準日日期，拼出資料夾路徑，前往找資料夾中照片、讀 EXIF，依拍攝日期建立照片列表，條件：
     - 每日一列，前綴為日期
     - 該日沒照片，日期後標「NONE」，
-    - 該日有照片，日期後一時間順序建立 github 圖片連結，
+    - 該日有照片，日期後依時間順序建立 github 圖片連結，
     - 照片讀不到 EXIF 日期，以註解列出來提醒補。
-
-ps. "總結日" 放在變數 commitDate
 
 本機測試:
     python scripts/generate_log.py --summary 2026-08-11 --days 14 --repo-root . --dry-run
@@ -26,7 +25,7 @@ from pathlib import Path
 from urllib.request import urlopen, Request
 
 # ────────────── 設定 ──────────────
-commitDate = "總結日"
+commitDate = "總結日" # Google Sheet 欄位名稱 
 OWNER    = os.environ.get("OWNER", "oliviaBit")
 REPO     = os.environ.get("REPO", "leahbao_poops")
 BRANCH   = os.environ.get("BRANCH", "main")
