@@ -34,5 +34,5 @@
 - 08/15 ![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/08/25/IMG_5188.jpeg?raw=true)
 - 08/14 ![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/08/25/IMG_5175.jpeg?raw=true)
 - 08/13 ![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/08/25/IMG_5161.jpeg?raw=true)
-- 08/12 ![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/08/25/IMG_5146.jpeg?raw=true)![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/08/25/IMG_5160.jpeg?raw=true)
+- 08/12 ![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/08/25/IMG_5146.jpeg?raw=true)
 
