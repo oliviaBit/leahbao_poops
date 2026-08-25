@@ -1,16 +1,20 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-產生鬣寶中藥 tmpLog.md。
+產生 tmpLog.md 檔案：
 
-前提:
-- 「一個總結日資料夾」年/月/日/ 內,放約兩週的所有照片 + tmpLog.md。
-- 每張照片的日期來自 EXIF(DateTimeOriginal)
-- 本腳本建立基本 tmpLog.md 負責把「近況」取出、照片清單套進列表。
+1. 產出「近況」資料
+    從指定 Google Sheet 讀 最新「總結日」那一列資料，來生成近況描述。
+    若該欄資料與上一總結日紀錄相同，近況顯示「〃」。
+2. 整理「大便照片」
+    依 Google Sheet 最新「總結日」拼出資料夾路徑，
+    找照片、讀 EXIF，依拍攝日期建立照片列表，條件：
+    - 每日一列，前綴為日期
+    - 該日沒照片，日期後標「NONE」，
+    - 該日有照片，日期後一時間順序建立 github 圖片連結，
+    - 照片讀不到 EXIF 日期，以註解列出來提醒補。
 
-ps. 
-- 近況：Google Sheet「總結日」那列,與上一筆比較,相同欄位自動填「〃」。 
-- 變數 commitDate: "總結日" 
+ps. "總結日" 放在變數 commitDate
 
 本機測試:
     python scripts/generate_log.py --summary 2026-08-11 --days 14 --repo-root . --dry-run
@@ -160,7 +164,7 @@ def exif_date(path):
 
 
 # ────────────── 大便照片(單一 {commitDate} 資料夾 + EXIF 分組) ──────────────
-def build_photos(repo_root, summary_date, start_date, annotated):
+def build_photos(repo_root, summary_date, start_date):
     folder = repo_root / f"{summary_date.year:04d}" / f"{summary_date.month:02d}" / f"{summary_date.day:02d}"
     by_day, no_exif = {}, []
     if folder.is_dir():
@@ -179,13 +183,11 @@ def build_photos(repo_root, summary_date, start_date, annotated):
             out.append(f"- {label} NONE")
             continue
         parts, any_note = [], False
-        for p in imgs:
-            is_note = p.name in annotated
-            any_note = any_note or is_note
+        for p in imgs: 
             rel = p.relative_to(repo_root).as_posix()
             url = f"https://github.com/{OWNER}/{REPO}/blob/{BRANCH}/{rel}?raw=true"
-            parts.append(f"![{'有註記' if is_note else ''}]({url})")
-        out.append((f"- {label} 有註記 " if any_note else f"- {label} ") + "".join(parts))
+            parts.append(f"![]({url})")
+        out.append(f"- {label} " + "".join(parts))
     out.append("")
 
     if no_exif:
@@ -207,7 +209,6 @@ def main():
     args = ap.parse_args()
 
     repo_root = Path(args.repo_root).resolve()
-    annotated = set()  # 註記在「你提供檔案給我看圖」那步處理,Action 不做
 
     rows = fetch_sheet_rows()
     headers, recs = find_records(rows)
@@ -228,7 +229,7 @@ def main():
     body = "\n\n".join([
         f"# 鬣寶中藥 {summary_date.strftime('%Y/%m/%d')}",
         build_status(headers, recs, summary_date),
-        build_photos(repo_root, summary_date, start_date, annotated),
+        build_photos(repo_root, summary_date, start_date),
     ]) + "\n"
 
     out_path = Path(args.out) if args.out else (
