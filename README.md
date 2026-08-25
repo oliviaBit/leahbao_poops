@@ -11,8 +11,8 @@
 寄出後請同時電聯櫃檯收信、確認內容，有時候醫師出國或長假，櫃檯此時會提醒將照舊配方或空窗。中藥是吃長期，偶爾幾次斷掉不要緊。
 
 ## 自動化生成報告
-1. 新增當期近況記錄 ![gs](https://docs.google.com/spreadsheets/d/12m-ozdcdyN4JvdidQBRCjL2lsi5pqk1sRjpjAUaWMzY/edit) 
+1. 新增當期近況記錄 [ctrl+點](https://docs.google.com/spreadsheets/d/12m-ozdcdyN4JvdidQBRCjL2lsi5pqk1sRjpjAUaWMzY/edit) 
 2. 匯入照片到該日資料夾：須先在 repo 建立（符合當期日期的）資料夾結構。
 3. 到 Action run workflow 產生 `tmpLog.md`
-4. 貼入`tmpLog.md` 檔案網址或檔案內容給 ai skill 分析照片、增加註記
+4. 貼入`tmpLog.md` url 或檔案內容給 my skill 分析照片、增加註記。  
    給網址將自動生成 log.md 並自動 commit，貼檔案內容則要自己手動建立檔案。
