@@ -131,7 +131,7 @@ def build_status(headers, recs, summary_date):
             out.append(f"- {label}:{field(src)}")
 
     link = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/edit?gid={GID}&range=A{cur['row_num']}"
-    out += ["", f"📄 資料來源:[近況記錄 {summary_date.strftime('%m/%d')}]({link})"]
+    out += ["", f"📋 [近況記錄 {summary_date.strftime('%m/%d')}]({link})"]
     return "\n".join(out)
 
 
