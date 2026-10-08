@@ -22,7 +22,7 @@
 ## 大便照片
 
 - 10/08 ![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/10/08/IMG_5872.jpeg?raw=true)<br>![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/10/08/IMG_5897.jpeg?raw=true)
-- 10/07 ![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/10/08/IMG_5861.jpeg?raw=true)<br>![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/10/08/IMG_5864.jpeg?raw=true)
+- 10/07 ![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/10/08/IMG_5861.jpeg?raw=true)
 - 10/06 ![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/10/08/IMG_5848.jpeg?raw=true)
 - 10/05 ![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/10/08/IMG_5837.jpeg?raw=true)
 - 10/04 ![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/10/08/IMG_5800.jpeg?raw=true)<br>![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/10/08/IMG_5804.jpeg?raw=true)<br>![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/10/08/IMG_5826.jpeg?raw=true)<br>![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/10/08/IMG_5829.jpeg?raw=true)
