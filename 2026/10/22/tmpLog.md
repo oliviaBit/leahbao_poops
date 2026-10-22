@@ -21,18 +21,18 @@
 
 ## 大便照片
 
-- 10/22 ![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/10/22/IMG_6105.jpeg?raw=true)<br>![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/10/22/IMG_6106.jpeg?raw=true)
-- 10/21 ![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/10/22/IMG_6091.jpeg?raw=true)
-- 10/20 ![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/10/22/IMG_6079.jpeg?raw=true)
-- 10/19 ![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/10/22/IMG_6070.jpeg?raw=true)
-- 10/18 ![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/10/22/IMG_6062.jpeg?raw=true)
-- 10/17 ![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/10/22/IMG_5992.jpeg?raw=true)
-- 10/16 ![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/10/22/IMG_5985.jpeg?raw=true)
-- 10/15 ![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/10/22/IMG_5980.jpeg?raw=true)
-- 10/14 ![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/10/22/IMG_5953.jpeg?raw=true)
+- 10/22 <br>![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/10/22/IMG_6105.jpeg?raw=true)<br><br>![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/10/22/IMG_6106.jpeg?raw=true)
+- 10/21 <br>![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/10/22/IMG_6091.jpeg?raw=true)
+- 10/20 <br>![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/10/22/IMG_6079.jpeg?raw=true)
+- 10/19 <br>![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/10/22/IMG_6070.jpeg?raw=true)
+- 10/18 <br>![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/10/22/IMG_6062.jpeg?raw=true)
+- 10/17 <br>![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/10/22/IMG_5992.jpeg?raw=true)
+- 10/16 <br>![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/10/22/IMG_5985.jpeg?raw=true)
+- 10/15 <br>![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/10/22/IMG_5980.jpeg?raw=true)
+- 10/14 <br>![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/10/22/IMG_5953.jpeg?raw=true)
 - 10/13 NONE
 - 10/12 NONE
-- 10/11 ![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/10/22/IMG_5929.jpeg?raw=true)
+- 10/11 <br>![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/10/22/IMG_5929.jpeg?raw=true)
 - 10/10 NONE
-- 10/09 ![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/10/22/IMG_5902.jpeg?raw=true)
+- 10/09 <br>![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/10/22/IMG_5902.jpeg?raw=true)
 
