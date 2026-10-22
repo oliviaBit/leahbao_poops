@@ -185,7 +185,7 @@ def build_photos(repo_root, summary_date, start_date):
         for p in imgs: 
             rel = p.relative_to(repo_root).as_posix()
             url = f"https://github.com/{OWNER}/{REPO}/blob/{BRANCH}/{rel}?raw=true"
-            parts.append(f"![]({url})")
+            parts.append(f"<br>![]({url})")
         out.append(f"- {label} " + "<br>".join(parts))
     out.append("")
 
