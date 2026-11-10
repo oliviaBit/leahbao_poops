@@ -13,11 +13,16 @@
 - 體重 3.92kg（2026/11/10）
 - 精神:清醒
 - 行動:無特殊
-- 保養品:正常
+- 保養品:正常（安適得恢復）
 - 艾克痰噴霧:〃
-- 備註:安適得恢復。10/31食慾銳減至5-15g;11/01餵水咬針筒時疑似吞到包針頭前端的紙膠（很小）；11/03 呼吸怪 （之前有過）附影片連結；
+- 備註:
+  - 10/31食慾銳減至5-15g;
+  - 11/01餵水咬針筒時疑似吞到包針頭前端的紙膠（很小）；
+  - 11/03 呼吸怪 （之前有過）附影片連結；
 
 📋 [近況記錄 11/10](https://docs.google.com/spreadsheets/d/12m-ozdcdyN4JvdidQBRCjL2lsi5pqk1sRjpjAUaWMzY/edit?gid=0&range=A9)
+
+- 呼吸狀況 https://youtube.com/shorts/e8SfYkjgD78?si=zgmzGdGCwI92CwnL
 
 ## 大便照片
 
@@ -26,7 +31,7 @@
 - 11/08 <br>![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/11/10/IMG_6372.jpeg?raw=true)
 - 11/07 NONE
 - 11/06 NONE
-- 11/05 NONE
+- 11/05 有大便 狀態正常 量比平時少一點
 - 11/04 <br>![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/11/10/IMG_6301.jpeg?raw=true)
 - 11/03 NONE
 - 11/02 <br>![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/11/10/IMG_6291.jpeg?raw=true)
