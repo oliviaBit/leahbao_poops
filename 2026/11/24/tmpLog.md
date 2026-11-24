@@ -1,5 +1,12 @@
 # 鬣寶中藥 2026/11/24
 
+想請問上次醫師送的藥膏可以擦這個小寶的傷口嗎？
+小寶傷口 ![小寶傷口](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/11/24/IMG_6537.jpeg?raw=true)
+
+小寶這個腫塊是之前手術縫合後增生的組織，
+怕摩擦所以我包起來，之前都沒受傷，這次可能有摩擦到，傷口太久沒發現，變成凹一個大洞，昨日已看過醫師已清創。
+但醫師以為我還有之前剩藥（磺胺銀），所以沒開新的給我，護理時發現舊的剩藥不夠擦完這次療程～想問上次送的藥膏，是否是為同樣藥品，可以接續用？
+
 ## 近況
 
 > 「〃」:同上次
@@ -21,8 +28,9 @@
 
 ## 大便照片
 
-- 11/24 <br>![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/11/24/IMG_6546.jpeg?raw=true)<br><br>![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/11/24/IMG_6551.jpeg?raw=true)
-- 11/23 <br>![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/11/24/IMG_6537.jpeg?raw=true)
+- 11/24 <br>![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/11/24/IMG_6546.jpeg?raw=true)<br><br>鬣寶體重 
+  ![鬣寶體重](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/11/24/IMG_6551.jpeg?raw=true)
+- 11/23 NONE
 - 11/22 NONE
 - 11/21 NONE
 - 11/20 <br>![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/11/24/IMG_6515.jpeg?raw=true)
@@ -35,4 +43,3 @@
 - 11/13 NONE
 - 11/12 <br>![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/11/24/IMG_6450.jpeg?raw=true)
 - 11/11 <br>![](https://github.com/oliviaBit/leahbao_poops/blob/main/2026/11/24/IMG_6425.jpeg?raw=true)
-
